@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choicesImage {
+    width: 30px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.choicesButton {
+    justify-content: center;
+    width: 161px;
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.texts {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.scoreText {
+    font-size: xx-large;
+    font-style: italic;
+    font-family: monospace;
+    color: #fc5555;
+    text-decoration: underline;
+    background-color: aquamarine;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-radius: 8px;
+}
+
+.playAgainBut {
+    color: rgb(255, 255, 255);
+    background-color: rgb(211 48 48);
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: lightsteelblue;
+    min-width: 750px;
+    min-height: 610px;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.test2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 262px;
+}
+
+.test3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 309px;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.title {
+    font-size: 50px;
+    margin-top: 3px;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
+.imagesAnswers {
+    width: 64px;
+    height: auto;
+    padding: 10px;
+}
+
+.rock {
+    font-size: 30px;
+    background-color: lightgreen;
+}
+
+.paper {
+    font-size: 30px;
+    background-color: lightcoral;
+}
+
+.scissor {
+    font-size: 30px;
+    background-color: lightblue;
+}
+
+.chooseQuestion {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.showingAnswer {
+    font-size: 60px;
+    margin: 0;
+}
+
+.newGame {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultDiv {
+    position: absolute;
+    margin-top: 30%;
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+    visibility: hidden;
+}
